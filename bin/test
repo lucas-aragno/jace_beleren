@@ -1,4 +1,0 @@
-#!/bin/bash
-
-gem build jace_beleren.gemspec
-gem install ./jace_beleren-0.2.0.gem
