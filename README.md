@@ -28,7 +28,7 @@ Or install it yourself as:
     require 'jace_beleren'
     @client = JaceBeleren::API.new
 
-**Get all the cards **
+**Get all the cards**
 
     @client.get_all_cards
 
