@@ -10,7 +10,7 @@ module JaceBeleren
 
     def get_all_cards(options)
       uri = options.keys.size > 0 ? '/cards?' : '/cards' 
-      options.map do |k, v|
+      options.each do |k, v|
         uri += "#{k}=#{v}"
         uri += '&' unless k == options.keys.last
       end
